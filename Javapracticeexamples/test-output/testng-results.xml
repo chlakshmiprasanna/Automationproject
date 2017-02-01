@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample Suite" duration-ms="34" started-at="2017-01-20T06:43:32Z" finished-at="2017-01-20T06:43:32Z">
+    <groups>
+    </groups>
+    <test name="Firstpackage" duration-ms="34" started-at="2017-01-20T06:43:32Z" finished-at="2017-01-20T06:43:32Z">
+      <class name="Krishnaquestions.Secondtestngtestcase">
+        <test-method status="PASS" signature="f()[pri:0, instance:Krishnaquestions.Secondtestngtestcase@18be83e4]" name="f" duration-ms="2" started-at="2017-01-20T12:13:32Z" finished-at="2017-01-20T12:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Krishnaquestions.Secondtestngtestcase -->
+      <class name="Krishnaquestions.fourthtestcase">
+        <test-method status="PASS" signature="f()[pri:0, instance:Krishnaquestions.fourthtestcase@28feb3fa]" name="f" duration-ms="12" started-at="2017-01-20T12:13:32Z" finished-at="2017-01-20T12:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Krishnaquestions.fourthtestcase -->
+      <class name="Javaprogms.NewTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:Javaprogms.NewTest@4b9e13df]" name="f" duration-ms="1" started-at="2017-01-20T12:13:32Z" finished-at="2017-01-20T12:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Javaprogms.NewTest -->
+      <class name="Javaprogms.Secondtestcase">
+        <test-method status="PASS" signature="f()[pri:0, instance:Javaprogms.Secondtestcase@cb5822]" name="f" duration-ms="1" started-at="2017-01-20T12:13:32Z" finished-at="2017-01-20T12:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Javaprogms.Secondtestcase -->
+    </test> <!-- Firstpackage -->
+  </suite> <!-- Sample Suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Suite" verbose="1" >
+ <test name="Firstpackage" >
+    <packages>
+      <package name="Javaprogms" />
+      <package name="Krishnaquestions" />
+   </packages>
+ </test>
+</suite>
