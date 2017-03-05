@@ -11,6 +11,8 @@ import org.testng.annotations.Test;
 
 public class SimpleTestClass {
 
+	WebDriver driver;
+	
 	@BeforeClass
 	public void launchApplication() {
 		System.out.println("This is Before Class");
@@ -23,16 +25,11 @@ public class SimpleTestClass {
 
 	@Test
 	public void testMethod() {
-		System.setProperty("webdriver.ie.driver", "D:/eclipse/lib/IEDriverServer.exe");
-		WebDriver driver = new InternetExplorerDriver();
+		System.setProperty("webdriver.ie.driver", "D:\\eclipse\\lib\\IEDriverServer.exe");
+		driver = new InternetExplorerDriver();
 		driver.get("http://www.google.com");
 	}
 	
-	@Test
-	public void testMethod2() {
-		System.out.println("This is Test Method2");
-	}
-
 	@AfterMethod
 	public void logoutApplication() {
 		System.out.println("This is After Method");
@@ -40,7 +37,7 @@ public class SimpleTestClass {
 
 	@AfterClass
 	public void exitBrowser() {
-		System.out.println("This is After Class");
+		driver.quit();
 	}
 
 }
